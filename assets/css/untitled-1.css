@@ -1,0 +1,40 @@
+@media (min-width: 1200px) {
+  .col-md-4.col-md-push-7.phone-preview {
+  }
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:35px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  outline-style:solid;
+  outline-color:white;
+}
+
+.font-mid {
+  font-size:16px;
+}
+
+iframe {
+  outline-style:solid;
+  outline-color:white;
+}
+
+h5, .h5 {
+  text-align:right;
+}
+
+h5, .right-head {
+  text-align:right;
+}
+
