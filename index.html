@@ -6,7 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
+<!--
     <meta name="og:description" content="{{ site.description }}">
+-->
+    <meta property="og:url"  content="https://ntpuecon.github.io/econblogcompetition/" />
+    <meta property="og:type"   content="作品展示" />
+    <meta property="og:title"  content="國立臺北大學 2018經濟部落客競賽 作品展示" />
+    <meta property="og:description" content="精彩作品帶你了解台灣，看完別忘了人氣投票抽神祕獎品喔" />
+    <meta property="og:image"  content="https://ntpuecon.github.io/econblogcompetition/assets/img/20170728_072259.jpg" />
+
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -28,6 +36,14 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.0&appId=122290335160722&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header"><a class="navbar-brand" href="http://www.ntpu.edu.tw/econ/" target="_blank">國立臺北大學．經濟學系 </a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
@@ -69,6 +85,9 @@
                 <div class="col-md-4">
                     <h1 class="text-center"><i class="fa fa-angellist"></i></h1>
                     <h3 class="text-center">人氣投票</h3>
+                    <div class="text-center" style="margin-bottom:20px;background-color:#E5E9ED;">
+                      <div class="fb-share-button" data-href="https://ntpuecon.github.io/econblogcompetition/" data-layout="button_count" data-size="small" data-mobile-iframe="true" style="background-color: #E5E9ED;"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fntpuecon.github.io%2Feconblogcompetition%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                    </div>
                     <p class="text-center" style="margin-bottom:0;">本校經濟系主修及雙主修之學士班、進修學士班及碩士班在學學生，皆有資格投票。<br>請在看完參賽作品後，請前往投票網址投票，一人二票。<br>活動結束後，我們將抽出5位幸運同學，贈送神祕小禮物。</p>
                 </div>
                 <div class="col-md-4">
@@ -599,7 +618,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-46172202-4', 'auto');
+  ga('create', 'UA-104915016-4', 'auto');
   ga('send', 'pageview');
 
 </script>
